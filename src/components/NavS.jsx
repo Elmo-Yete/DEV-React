@@ -48,7 +48,7 @@ export default function NavS() {
                 <BurgerListing />
               </div>
             )}
-            <img src="../burger-Menu-Icon.svg" className="w-5" />
+            <img src="../public/burger-Menu-Icon.svg" className="w-5" />
           </a>
         </div>
         <Link to="/">
