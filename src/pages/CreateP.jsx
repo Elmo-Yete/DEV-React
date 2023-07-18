@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 
 export default function Create() {
-  const [tagsTo, setTags] = useState < [] > [];
+  const [tagsTo, setTags] = useState([]);
   const [tag, setTag] = useState("");
 
   function onAddItem() {
