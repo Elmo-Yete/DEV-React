@@ -87,7 +87,7 @@ export default function NavS() {
             </div>
             <div className="hidden max-[710px]:block  md:hidden lg:hidden">
               <img
-                src="../src/assets/icons/search-svgrepo-com.svg"
+                src="../search-svgrepo-com.svg"
                 className="w-[1.5rem] ms-2 m-[.2rem] mt-1"
               />
             </div>
