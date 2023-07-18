@@ -19,7 +19,7 @@ export default function Latest() {
       <header className="relative">
         <NavS />
       </header>
-      <main className="flex flex-col items-center">
+      <main className="flex flex-col items-center mt-5">
         {posts
           .filter((post) => post.date)
           .sort((a, b) => new Date(b.date) - new Date(a.date))
