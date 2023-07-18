@@ -91,7 +91,7 @@ export default function NavBar({ posts }) {
           />
           <span className=" text-black font-light text-base hover:bg-slate-100 hover:text-blue-800 cursor-pointer w-11  hover:ring[1px] hover:rounded-md">
             <img
-              src="../src/assets/icons/search-svgrepo-com.svg"
+              src="../search-svgrepo-com.svg"
               className="w-7/12 ms-2 m-[.2rem]"
             />
           </span>
