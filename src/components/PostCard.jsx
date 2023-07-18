@@ -64,10 +64,7 @@ export default function PostCard(post) {
                     <a href="#" className="emojis-comments__colection ">
                       <div className="emojis-comments__colection--emojis flex">
                         <span className="bg-slate-300  rounded-full p-1">
-                          <img
-                            src="../src/assets/icons/love.svg"
-                            className="w-4"
-                          />
+                          <img src="../love.svg" className="w-4" />
                         </span>
                         <span className="ps-3 flex">
                           {post.post.heartReactions}
