@@ -35,38 +35,26 @@ export default function BurgerListing() {
       <div className="third-list flex py-5">
         <a>
           <img
-            src="../src/assets/icons/tuwiter-Black-Icon.svg"
+            src="../tuwiter-Black-Icon.svg"
             alt="Twitter logo"
             className="w-7"
           />
         </a>
         <a>
-          <img
-            src="../src/assets/icons/facebock-Icon.svg"
-            alt="Facebook logo"
-            className="w-7"
-          />
+          <img src="../facebock-Icon.svg" alt="Facebook logo" className="w-7" />
+        </a>
+        <a>
+          <img src="../github-Icon.svg" alt="Github logo" className="w-7" />
         </a>
         <a>
           <img
-            src="../src/assets/icons/github-Icon.svg"
-            alt="Github logo"
-            className="w-7"
-          />
-        </a>
-        <a>
-          <img
-            src="../src/assets/icons/instagram-Icon.svg"
+            src="../instagram-Icon.svg"
             alt="Instagram logo"
             className="w-7"
           />
         </a>
         <a>
-          <img
-            src="../src/assets/icons/twitch-Icon.svg"
-            alt="Twitch logo"
-            className="w-7"
-          />
+          <img src="../twitch-Icon.svg" alt="Twitch logo" className="w-7" />
         </a>
         <a>
           <img
