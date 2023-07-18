@@ -72,7 +72,7 @@ export default function Post() {
                   </div>
                   <div className="flex flex-row px-7 pt-5 ">
                     <span className="flex w-7">
-                      <img src="../src/assets/icons/red-Heart-Icon.svg" />
+                      <img src="../red-Heart-Icon.svg" />
                       <p>{randomReact}</p>
                     </span>
                   </div>

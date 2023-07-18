@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import NavBar from "../components/NavBar";
+import NavS from "../components/NavS";
 import Footer from "../components/Footer";
 
 export default function Login() {
@@ -37,7 +37,7 @@ export default function Login() {
 
   return (
     <>
-      <NavBar />
+      <NavS />
       <main className="bg-dev-background min-h-screen flex justify-center items-center">
         <ToastContainer
           position="top-center"
@@ -83,29 +83,20 @@ export default function Login() {
                 <button className="bg-cyan-900 p-2 rounded-md my-2 flex justify-center gap-1">
                   <span>
                     <span>
-                      <img
-                        src="../src/assets/icons/forem.svg"
-                        className="w-5"
-                      />
+                      <img src="../forem.svg" className="w-5" />
                     </span>
                   </span>
                   Continue with Forem
                 </button>
                 <button className="bg-slate-800 p-2 rounded-md my-2 flex justify-center gap-1">
                   <span>
-                    <img
-                      src="../src/assets/icons/github-Icon.svg"
-                      className="w-7"
-                    />
+                    <img src="../github-Icon.svg" className="w-7" />
                   </span>
                   Continue with GitHub
                 </button>
                 <button className="bg-sky-500 p-2 rounded-md my-2 flex justify-center gap-1">
                   <span>
-                    <img
-                      src="../src/assets/icons/tuwiter-Icon.svg"
-                      className="w-7"
-                    />
+                    <img src="../tuwiter-Icon.svg" className="w-7" />
                   </span>
                   Continue with Twitter
                 </button>
