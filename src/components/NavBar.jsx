@@ -67,10 +67,7 @@ export default function NavBar({ posts }) {
                 <BurgerListing />
               </div>
             )}
-            <img
-              src="../src/assets/icons/burger-Menu-Icon.svg"
-              className="w-5"
-            />
+            <img src="../burger-Menu-Icon.svg" className="w-5" />
           </a>
         </div>
         <Link to="/">
